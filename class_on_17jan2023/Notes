@@ -33,9 +33,87 @@ Sticking two strings together enf to end is called concatentation and can be don
 Casting is a changing the type of a vlaue. Example: print("Total number of Japanese katakana: " + str(46))"
     , can connect to integers too.
     doesnt matter if the integer is before or after the ,
+    Use \ when the line is too long.
+    \n is the new line character. 
+    \t is used for tab.
 
 
 Variables
 
+- Variables are named containers for storing and manipulating items of data
+
+- Variable name must be legal Python identifiers.
+
+- Entities of any data type can be stored in variables
+
+- Variables are assigned values with the = operator.
+    Caution: this "assisgnment operator" is not to be confused with equality! It is not the equal to sign.
+
+- In Python you dont declare variables, you just assign a value
+
+- Python variables come into existence when they are assigned a value. 
+
+    Dynamic typing: A variable is the type of whatever valuse is currently assigned to it. A value of a different type can be freely assigned to it later. 
+
+
+
+
 
 Primitive data types
+
+    Built in data types
+
+        Integer: Positibe or negative numbers without decimal points
+        Float: Positive or negative numbers of arbitrary precision represented by values to the right of a decimal (floating) point
+        Complex: Numbers with two float values representing a real and imaginary component
+
+        Booleans: One of two positve values: True or False
+
+    Sequential types: 
+        
+        String: Sequence of text characters - Immutable (cannot be changed)
+        List: Sequences of arbitrary objects - Mutable (can be changed)
+        Tuple: Fixed-length sequences of arbitrary objects - Immutable
+        Bytes: Sequences of bytes (similar to strings but not considered as characters) - Immutable
+        Bytearray: Sequences of bytes - Mutable
+
+    Sets and mappings:
+        Set: Unordered collection of values than can change
+        Frozenset: Unordered collect of values that cannot change
+        Dictionary: Mapping from one set of values(keys) to another
+
+
+
+String IO (Input/Output)
+
+    Standard output: Print("Hello World!")
+    Standard input: my_string = input()
+    EX: name = input("Please enter your name: ")
+    print(f"Hello {name}, nice to see you!")
+
+
+    Arithmetic Operators 
+        + addition
+        - subtraction
+        * multiplication
+        /division
+        // floor division (5//2 will give 2 because 2 gives into 5 two times)
+        % remainder
+        ** exponentiation
+
+
+def main():
+main() makes sure everything is defined and works
+# A program to add two numbers.
+#######################################
+
+
+def main():
+    # Get input from user
+    num1 = float(input("Please input a number: "))
+    num2 = float(input("please input another number:"))
+
+    print(f"The sum of {num1} and {num2} is {num1 + num2}")
+
+
+main()
