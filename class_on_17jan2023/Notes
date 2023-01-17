@@ -31,7 +31,8 @@ Sticking two strings together enf to end is called concatentation and can be don
     Special characters beginning with \ enable newlines, tabs, and other special text times to be represented in strings.
     
 Casting is a changing the type of a vlaue. Example: print("Total number of Japanese katakana: " + str(46))"
-
+    , can connect to integers too.
+    doesnt matter if the integer is before or after the ,
 
 
 Variables
