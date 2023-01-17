@@ -117,3 +117,8 @@ def main():
 
 
 main()
+
+
+Magic Numbers: We dont want number in our code without being assigned. No one wants to see (farenheit_temp - 32) It also makes it hard to search. It is better to define it. So, BASE = 32
+
+import math: importing library to do complex math functions. Ex: math.sqrt
