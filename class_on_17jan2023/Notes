@@ -1,0 +1,40 @@
+PYTHON
+
+
+- Reserved Words: key words are words with special meanins in python that cannot be used for any other purpose in a progam. like and, for, break, class, if
+
+- Words that are used for common Python functions or a library array, open, write
+
+- Python is case sensitive! Cannot start with a number, can start with an underscore
+
+- Snake case: hello_world its the convention in Python. In Java it would be helloWorld and is called Camel case.
+
+- Linter. pycodestyle.
+
+- define a functiion with def. Example: def hello(): 
+
+- If you call the function 3 times, it will execute 3 times.
+
+- WHITE SPACE MATTERS in Python
+
+Character Strings
+
+The String Class. 
+    
+    Strings are sequences of characters. Strings are surrounded either by " " or ' '
+    "Don't panic"
+    'Don\'t panic'
+Sticking two strings together enf to end is called concatentation and can be done using the + operator or using the , operator:
+    print(Here is the first part" , "and here is the second part")
+
+    Triple quotes enable strings to span multiple lines without escape characters. 
+    Special characters beginning with \ enable newlines, tabs, and other special text times to be represented in strings.
+    
+Casting is a changing the type of a vlaue. Example: print("Total number of Japanese katakana: " + str(46))"
+
+
+
+Variables
+
+
+Primitive data types
