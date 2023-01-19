@@ -8,7 +8,10 @@ weather.py
     the average temperature at noon predicted for the 10 day forecast
 
     How to calculate avg temperature at noon predicted for the 10 day forecast
-    Too similar to the example shown. Is it plagarism?
+
+    Actually go and collect temp at noon for every day and then find the average
+
+
 
 
 
@@ -17,12 +20,17 @@ educlidean_distance.py
     d = √((x2 - x1)² + (y2 - y1)²)
     make sure the formula is correct
     ask for some examples to verify
+    SEEMS CORRECT
 
 adder.py
 
     adder.py listed at the end but not in the actual list
+    DO NOT HAVE TO DO THIS
 
 
 trig_functions.py
 
     I am getting different answers than the one shown in the example
+    change angles to radian
+
+
