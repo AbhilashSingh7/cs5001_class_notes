@@ -49,3 +49,73 @@ l       ast = fullname[name_break+1:]
         print("Your name in last-name first format:")
 
         print(f"{last}, {first_and_middle}")
+
+    Mutation
+
+        phrase = "Change is inevitable"
+
+        print("Original string:", phrase)
+        print("Length of string", len(phrase))
+
+        mutation1 = phrase + "except from vending machines"
+        print(f"1: {mutation1}")
+
+        mutation2 = mutation1.upper()
+        print(f"2: {mutation2}")
+
+        mutation3 = mutation2.replace(" ", "X")
+        print(f"3: {mutation3}")
+
+        print("Length of mutation3:", len(mutation3))
+
+        mutation4 = mutation3 + "/n"
+        print(f"4: {mutation4}")
+        print("That was mutation4")
+
+        print("Length of mutation4:", len(mutation4))
+
+        print("Original string:", phrase)
+
+        print(phrase[0])
+
+
+IF
+
+    Decision
+    Boolean:
+        It has to eventually be either true or false
+        if (5+6 == 11):
+            print("It is true")
+        else:
+            print("It is false")
+
+
+        To get user input
+            color = input("Input a color: ").lower()
+            if (color == 'red'):
+                print("Roses are this")
+            elif (color == 'purple'):
+                print("This haze is all in my brain")
+            elif (color == 'yellow'):
+                print("We all live in this submarine")
+            elif (color == 'blue'):
+                light_or_dark = input ("Is this light or dark blue?").lower()         [You can do this inside an if elif else]
+                if (light_or_dark == 'light'):
+                    print("Airy!")
+                elif(light_or_dark == 'dark'):
+                    print("Deep!")
+                else:
+                    print(well, its blue anyways!")
+            elif (color == 'green').lower()
+                print("Like the trees")
+            else
+
+
+
+python: It reads, evaluates, prints and then does it again [MIGHT BE ON AN EXAM]
+            
+    
+    EQUALITY
+
+        If the output is the same string_a == string_b are equal even if their contents are different. 
+        To check if the content is the same use: string_a is string_b
