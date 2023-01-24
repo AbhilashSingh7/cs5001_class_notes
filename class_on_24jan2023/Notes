@@ -121,4 +121,7 @@ python: It reads, evaluates, prints and then does it again [MIGHT BE ON AN EXAM]
         To check if the content is the same use: string_a is string_b
 
         single = assigns value, double == means equal to. [ex: string_a = string_b]
-        
+
+        string_a = "Hello"    }
+                              }   THEY ARE THE SAME because their content is the same
+        string_b = "Hello"    }
