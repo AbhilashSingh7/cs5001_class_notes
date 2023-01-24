@@ -9,8 +9,25 @@ Strings
         cap_in_string = in_string.upper()
         print(cap_in_string)
 
-    len: finds the lenght of the string. In-built
-    .upper: Changes to ALL CAPS
-    .lower: Change to lower case
+            len: finds the lenght of the string. In-built
+            .upper: Changes to ALL CAPS
+            .lower: Change to lower case
 
-    It doesnt actually change the script, it just shows one version of it. Original remains the same
+            It doesnt actually change the script, it just shows one version of it. Original remains the same
+
+    Index
+
+        Index starts with 0. Gives the letter in the string at that index. 
+
+        print(in_string[0])
+        print(in_string[1])
+        print(in_string[2])
+        print(in_string[3])
+        print(in_string[4])
+        print(in_string[5])
+
+        print(in_string[len(in_string)-1]) = To get the last one
+        short cut for the one above print(in_string[-1])
+        print(in_string[2:8]) = Would print everything between 2nd and 7th(remember index is -1)
+        print(in_string[-1::-1]) = will print it in reverse
+        print(in_string[::]) = will print it out as it is
