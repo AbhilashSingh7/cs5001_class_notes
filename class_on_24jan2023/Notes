@@ -31,3 +31,21 @@ Strings
         print(in_string[2:8]) = Would print everything between 2nd and 7th(remember index is -1)
         print(in_string[-1::-1]) = will print it in reverse
         print(in_string[::]) = will print it out as it is
+
+        print(f"The first instance of 'll' appears at position {in_string.find('ll')}") = Finds where ll is in the string
+        print(f"The first instance of 'll' appears at position {in_string.rfind('ll')}") = rfind finds it from the right
+        result is -1 if it doesnt find anything
+
+     Name exercise:
+
+        fullname = input("Input your full name:")
+
+        name_break = fullname.rfind(' ')
+
+        first_and_middle = fullname[:name_break]
+l       ast = fullname[name_break+1:]
+
+
+        print("Your name in last-name first format:")
+
+        print(f"{last}, {first_and_middle}")
