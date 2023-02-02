@@ -125,3 +125,6 @@ python: It reads, evaluates, prints and then does it again [MIGHT BE ON AN EXAM]
         string_a = "Hello"    }
                               }   THEY ARE THE SAME because their content is the same
         string_b = "Hello"    }
+
+        The easiest way to make another copy of a string is to join them [ex. h =''.join(f)
+        

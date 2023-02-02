@@ -1,0 +1,26 @@
+While loop is good when you dont know the input or output which will go on until one condition is met
+
+For loop is better when you know the number of loops
+
+
+
+    cough = input("Are you coughing? (yes/no)\n").lower()
+    breathing = input(("Are vou short of breath or wheezing",
+                      "or coughing up phlegm? (yes/no)\n")).lower()
+    headache = input("Do you have a headache? (yes/no)\n").lower()
+    bones = input(("Do you have aching bones or",
+                  "aching joints? (yes/no)\n")).lower()
+    rash = input("Do you have a rash? (yes/no)\n").lower()
+    throat = input("Do you have a soar throat? (yes/no)\n").lower()
+    back_pain = input(("Do vou have back pain just above the waist",
+                       "with chills and fever? (yes/no)\n")).lower()
+    urinating = input(("Do you have pain urinating or",
+                       "are urinating more often? (yes/no)\n")).lower()
+    sun = input(("Have you spent the day in the sun",
+                 "or in hot condtions? (yes/no)\n")).lower()
+    any_of_these = input(("Are are experiencing any of the following:\n",
+                          "pain when bending head forward,",
+                          "or vomiting,",
+                          "bright light hurting your eyes,",
+                          "drowsiness or confusion? (yes/no)")).lower()
+    vomiting = input("Are you vomiting or had diarrhea? (yes/no)").lower()
